@@ -20,6 +20,8 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              "gradient-red":"#F00",
+              "gradient-orange":"#FF8938",
             },
           },
         },
@@ -61,7 +63,7 @@
                     <h1 class="text-7xl font-extrabold">It's good <br> 
                         tea time at The <br> Tea House</h1>
                     <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                    <button class="btn btn-primary">Explore More</button>
+                    <button class="btn bg-gradient-to-r from-gradient-orange to-gradient-red text-white">Explore More</button>
                   </div>
                 </div>
               </div>
@@ -190,18 +192,106 @@
                   <div class="lg:pr-24">
                     <h1 class="text-5xl font-extrabold text-white">Meet Our Super Clients</h1>
                     <p class="py-6 text-white">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button class="btn btn-primary">Get Started</button>
+                    <button class="btn border-0 bg-gradient-to-r from-gradient-orange to-gradient-red text-white ">Show all</button>
 
                   </div>
                 </div>
               </div>
         </section>
         <!-- super client section start  -->
+           <!-- News section start -->
+           <section >
+            <div class="text-center mt-40">
+              <h2 class="text-5xl font-extrabold mb-5">News & Events</h2>
+            <p class="lg:max-w-3xl mx-auto mb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+            <!-- card container start  -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+                <!-- card 1 -->
+                <div class="card shadow-xl p-4">
+                    <figure><img src="images/news-1.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <p>Feb 05, 2027</p>
+                      <h2 class="text-2xl font-bold">Collecting 8 points for discount</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available.</p>
+                      <p class="font-bold">learn more</p>
+                     
+                    </div>
+                  </div>
+                  <!-- card 2 -->
+                  <div class="card shadow-xl p-4">
+                    <figure><img src="images/news-2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <p>Feb 05, 2027</p>
+                      <h2 class="text-2xl font-bold">Collecting 8 points for discount</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available.</p>
+                      <p class="font-bold">learn more</p>
+                     
+                    </div>
+                  </div>
+                  <!-- card 3 -->
+                  <div class="card shadow-xl p-4">
+                    <figure><img src="images/news-3.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <p>Feb 05, 2027</p>
+                      <h2 class="text-2xl font-bold">Collecting 8 points for discount</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available.</p>
+                      <p class="font-bold">learn more</p>
+                     
+                    </div>
+                  </div>
+            </div>
+            <!-- card container end  -->
+        </section>
+        <!-- News section end -->
 
     </main>
-    <footer>
-
-    </footer>
+        <footer class="p-10 bg-gradient-to-r from-[#ff00001a] to-[#ff899c1a] mt-20">
+        <div class="flex justify-between lg:px-20 my-10">
+          <img src="images/cup.png" alt="">
+          <div class="flex items-center gap-5 lg:mr-36"  >
+            <p>Are you ready?</p>
+            <button class="btn border-0 bg-gradient-to-r from-gradient-orange to-gradient-red text-white">Enter</button>
+          </div>
+        </div>
+         <div class="footer lg:px-20 text-base-content">
+          <div>
+            <span class="footer-title">Services</span> 
+            <a class="link link-hover">Branding</a> 
+            <a class="link link-hover">Design</a> 
+            <a class="link link-hover">Marketing</a> 
+            <a class="link link-hover">Advertisement</a>
+          </div> 
+          <div>
+            <span class="footer-title">Company</span> 
+            <a class="link link-hover">About us</a> 
+            <a class="link link-hover">Contact</a> 
+            <a class="link link-hover">Jobs</a> 
+            <a class="link link-hover">Press kit</a>
+          </div> 
+          <div>
+            <span class="footer-title">Legal</span> 
+            <a class="link link-hover">Terms of use</a> 
+            <a class="link link-hover">Privacy policy</a> 
+            <a class="link link-hover">Cookie policy</a>
+          </div> 
+          <div>
+            <span class="footer-title">Newsletter</span> 
+            <div class="form-control w-80">
+              <label class="label">
+                <span class="label-text">Enter your email address</span>
+              </label> 
+              <div class="relative">
+                <input type="text" placeholder="email adress" class="border-b-2 border-black p-2 bg-transparent" /> 
+                <button class="btn  border-0 rounded-full bg-gradient-to-r from-gradient-orange to-gradient-red text-white"><i class="fa-solid fa-angle-right"></i></button>
+              </div>
+            </div>
+          </div>
+         </div>
+         <div class="text-center my-20">
+          <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+        </div>
+        </footer>
 
   </body>
 </html>
